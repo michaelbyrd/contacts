@@ -1,11 +1,18 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  email: MyString
-  contact_id: 
+  id: 1
+  email: michael@gmail.com
+  contact_id: 1
   category_id: 
 
 two:
-  email: MyString
-  contact_id: 
+  id: 2
+  email: example@gmail.com
+  contact_id: 2
   category_id: 
+
+three:
+  id: 3
+  email: test@test.com
+  contact_id: 1
