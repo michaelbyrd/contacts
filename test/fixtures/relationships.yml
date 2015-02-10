@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  relation: MyString
+  primary_id: 1
+  secondary_id: 1
+
+two:
+  relation: MyString
+  primary_id: 1
+  secondary_id: 1
