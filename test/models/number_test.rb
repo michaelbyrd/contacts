@@ -16,4 +16,10 @@ class NumberTest < ActiveSupport::TestCase
     assert_equal 1234567, contacts(:one).numbers.first.number
     assert_equal 9876543, contacts(:one).numbers[1].number
   end
+
+  test "Numbers have a category" do
+    assert_equal "Home", numbers(:one).category.name
+    assert_equal "Mobile", numbers(:two).category.name
+    assert_equal "Work", numbers(:three).category.name
+  end
 end
