@@ -10,5 +10,7 @@ class StreetAddressTest < ActiveSupport::TestCase
 
   test "street_addresses belong_to addresses" do
     assert_equal "Apartment 4", addresses(:one).street_addresses.first.line
+    assert_equal 1, addresses(:one).street_addresses.first.line_number
   end
+
 end
